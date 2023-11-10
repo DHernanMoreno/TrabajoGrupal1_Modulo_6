@@ -1,6 +1,4 @@
-
-
-
+//SubClase hecha por kelvin Muñoz
 package Helpers;
 
 public class Deportista extends Persona {
