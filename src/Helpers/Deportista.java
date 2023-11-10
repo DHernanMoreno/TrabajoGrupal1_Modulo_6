@@ -1,7 +1,7 @@
 //SubClase hecha por kelvin Muñoz
 package Helpers;
 
-public class Deportista extends Persona {
+public final class Deportista extends Persona {
 
     //Subiendo deportista 
     // Atributos específicos de la subclase Deportista
