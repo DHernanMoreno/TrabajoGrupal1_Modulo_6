@@ -17,13 +17,13 @@ public class main {
      */
     public static void main(String[] args) {
        
-        Deportista deportista = new Deportista(); //Instanciar la clase Doctor 
+        Deportista deportista = new Deportista(); //Instanciar la clase Deportista 
         
         
         System.out.println(deportista.ObternerInformacionPersona());
         deportista.imprimirgeneral();
         deportista.imprimirDeportista();
-        //Esperando solucionar 
+    
         
         
     }
