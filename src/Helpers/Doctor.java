@@ -9,18 +9,8 @@ public class Doctor extends Persona {
     // Atributos específicos de la subclase Doctor
     private String especialidad;
     private String hospital;
-
-    // Constructor
-    public Doctor() {
-        Identidad("123456789");  // Ejemplo de ID, puedes cambiarlo según tus necesidades
-        EstablecerNombre("Dr. Juan Pérez");
-        EstablecerEdad(40);
-        EstablecerProfesion("Doctor");
-        EstablecerCorreo("juan.perez@example.com");
-        Establecertelefono("123456789");
-    }
-
-    // Métodos específicos de la subclase Doctor
+    
+      // Métodos específicos de la subclase Doctor
     public void setEspecialidad(String especialidad) {
         this.especialidad = especialidad;
     }
@@ -36,6 +26,20 @@ public class Doctor extends Persona {
     public String getHospital() {
         return this.hospital;
     }
+
+    // Constructor
+    public Doctor() {
+        Identidad("123456789");  // Ejemplo de ID
+        EstablecerNombre("Dr. Juan Pérez");
+        EstablecerEdad(40);
+        EstablecerProfesion("Doctor");
+        EstablecerCorreo("juan.perez@example.com");
+        Establecertelefono("123456789");
+        setEspecialidad("Pediatra");
+        setHospital("Materno Infantil");
+    }
+
+  
 
     @Override
     public String ObternerInformacionPersona() {
