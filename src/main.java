@@ -22,6 +22,7 @@ public class main {
         
         System.out.println(deportista.ObternerInformacionPersona());
         deportista.imprimirgeneral();
+        deportista.imprimirDeportista();
         //Esperando solucionar 
         
         
