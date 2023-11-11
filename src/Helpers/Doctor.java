@@ -39,7 +39,12 @@ public class Doctor extends Persona {
         setHospital("Materno Infantil");
     }
 
-  
+  // Método para imprimir información específica de la subclase Doctor
+    public void imprimirDoctor() {
+       System.out.println("Tipo de Especialidad: "+especialidad);
+       System.out.println("Nombre del Hopital que labora :"+ hospital);
+       
+    }
 
     @Override
     public String ObternerInformacionPersona() {
