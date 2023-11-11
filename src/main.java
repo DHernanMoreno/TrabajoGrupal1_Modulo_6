@@ -21,7 +21,7 @@ public class main {
         Deportista deportista = new Deportista(); //Instanciar la clase Deportista 
         Doctor doctor = new Doctor();
         
-        
+        //IMPRIMIR INFORMACION 
         System.out.println(deportista.ObternerInformacionPersona());
         deportista.imprimirgeneral();
         deportista.imprimirDeportista();
