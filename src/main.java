@@ -1,5 +1,6 @@
 
 import Helpers.Deportista;
+import Helpers.Doctor;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -18,11 +19,15 @@ public class main {
     public static void main(String[] args) {
        
         Deportista deportista = new Deportista(); //Instanciar la clase Deportista 
+        Doctor doctor = new Doctor();
         
         
         System.out.println(deportista.ObternerInformacionPersona());
         deportista.imprimirgeneral();
         deportista.imprimirDeportista();
+        System.out.println(doctor.ObternerInformacionPersona());
+        doctor.imprimirgeneral();
+        doctor.imprimirDoctor();
     
         
         
